@@ -1,0 +1,12 @@
+
+export const CARDS_LOADED_SUCCESS = 'CARDS_LOADED_SUCCESS'
+
+export const CARDS_LOADED_FAIL = 'CARDS_LOADED_FAIL'
+
+export const ADD_CARD = 'ADD_CARD'
+
+export const DELETE_CARD = 'DELETE_CARD'
+
+export const UPDATE_CARD = 'UPDATE_CARD'
+
+export const FIND_CARD = 'FIND_CARD'

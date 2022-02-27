@@ -1,0 +1,38 @@
+.text-input{
+    margin: 16px 5px;    
+}
+
+.cancelButton {
+    background-color: #ffdc99 !important;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: none;
+    height: 30px;
+    border-radius: 10px;
+    width: 46px;
+}
+
+.updateButton {
+    background-color: #ffdc99 !important;
+    border: none;
+    height: 30px;
+    border-radius: 10px;
+    width: 46px;
+}
+
+.updateModal {
+    position: absolute;
+    height: 200px;
+    width: 300px;
+    top : 25%;
+    left: 10%;
+    border: 1px solid black;
+    font-size: 20px;
+    padding: 4px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.updateInput {
+    width: 90%;
+    height: 20px;
+}

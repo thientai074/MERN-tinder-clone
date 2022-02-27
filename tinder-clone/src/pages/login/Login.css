@@ -1,0 +1,81 @@
+.login{
+    height: 100vh;
+    width: 100vw;
+    background: url('https://i.gadgets360cdn.com/large/tinder_video_main_blog_1624454571674.jpg');    
+    background-size: cover;    
+    position: relative;
+}
+
+.container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    align-content: center;    
+    display: flex;
+    flex-direction: column;
+}
+
+.container h1 {
+    font-size: 70px;
+    margin-top: 20%;
+    color: #ec5e6f;
+}
+
+.container h2 {
+    color: #ec5e6f;
+    font-size: 50px;
+}
+   
+
+.input {     
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    height: 50px;
+    border-radius: 5px;
+    width: 100%;
+    height: 40%;
+    
+}
+
+.input input {    
+    width: 16%;
+    height: 12%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0 10px;
+    
+}
+
+.loginButton {
+    background-color: #ec5e6f !important;
+    height: 5vh;
+    width: 10vw;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+}
+
+.input p {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.registerButton {
+    background-color: #76e2b3 !important;
+    height: 5vh;
+    width: 10vw;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    
+}
+

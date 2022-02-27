@@ -1,0 +1,47 @@
+POST http://localhost:5000/api/auth/register
+Content-Type: application/json
+
+{
+    "username": "Nam",
+    "password": "Nam"
+}
+
+###
+
+POST http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+    "username": "Nam",
+    "password": "Nam"
+}
+
+###
+
+POST http://localhost:5000/api/card
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MWMxYjhiNDc5OTE5NjRiNmQ1NjRjYzUiLCJpYXQiOjE2NDAwODU2OTB9.sByDhm-lt0CwfNXxU8Ghz8oPcsgEG3c1ojLHsr6LSas
+
+{
+    "name": "alddo1",
+    "imgUrl": "alo"
+}
+
+###
+GET http://localhost:5000/api/card
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MWMwMTY2OWZlZjY2NTZmNTQ0OTczY2YiLCJpYXQiOjE2Mzk5OTUzMDV9.HrtjV0Wp0_vOcQj9gPPXv-X-DEcYSI9CUXlOFiZcig4
+
+###
+PUT http://localhost:5000/api/card/61c06295c3f6d93cbb85bf39
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MWMwMTY2OWZlZjY2NTZmNTQ0OTczY2YiLCJpYXQiOjE2NDAwMDEyMzR9.ee_PRAWzSinHUczO_1bo1yRBa9XlSkx_FFcdHgelb38
+
+
+{
+    "name": "hahaff",
+    "imgUrl": "hdhdh"
+}
+
+###
+DELETE http://localhost:5000/api/card/61c0685bd30aec3001f36c27
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MWMwMTY2OWZlZjY2NTZmNTQ0OTczY2YiLCJpYXQiOjE2Mzk5OTk5NzJ9.Jji8ffbVj7asofHwlDSH-3PkSfe1JYenNo6S2geH2NA

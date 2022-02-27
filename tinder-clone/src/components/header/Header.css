@@ -1,0 +1,32 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #f9f9f9;
+    background-color: white;
+    height: 10vh;  
+}
+
+.header__icon{
+    padding: 20px;
+    height: 40px;
+
+}
+
+.header__logo {
+    object-fit: contain;
+    height: 40px;
+}
+
+.personIcon{
+    color: #62b4f9;
+}
+
+.logoutButton {
+    background-color: aquamarine;
+    height: 40px;
+    width: 96px;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: none
+}
