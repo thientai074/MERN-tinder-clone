@@ -36,43 +36,18 @@
     color: #ff8898;
 } 
 
-.tinder__card{
-    height: 80vh;
-    width: 100vw;
-    align-items: center;
-    position: relative;   
-} 
-
-.home {
-    background: linear-gradient(to top right, #ffff99 0%, #ff6699 100%);
-} 
-
-.tinder__card p {
-    font-size: 50px;
-    font-weight: 600;
-    padding-top: 40px;
-    font-family: 'Times New Roman', Times, serif;
-    color: #ffdc99;   
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+@media screen and (max-width: 1900px) {
+    .tinder__card{
+        margin-top: -40px;
+        height: 80vh;
+        width: 100vw;
+        align-items: center;
+        position: relative;   
+    }     
 }
 
-.makeButton {
-    background-color: pink;
-    border: none;
-    height: 44px;
-    border-radius: 5px;
-    margin-right: 5px;
-    justify-content:center;    
-    margin-left: 8px;
-    margin-right: 8px;
-    margin-top: 15px;
-    font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
-    color: #ff8898;
-} 
+
+
 
 
 
