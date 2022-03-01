@@ -4,3 +4,14 @@
     height: 30px;
     border-radius: 10px;
 }
+
+@media screen and (max-width: 1900px) {
+    .UpdateButton {
+        background-color: #ffdc99;
+        border: none;    
+        height: 20px;
+        border-radius: 10px;
+        font-size: 10px;
+        font-weight: 600;
+    }    
+}
